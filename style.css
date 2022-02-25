@@ -1,0 +1,84 @@
+.searchbar {
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+}
+
+.searchbar-sm {
+    border-radius: 5px;
+    display: block;
+    margin: 7px;
+    padding: 7px;
+    width: 500px;
+  }
+
+.searchbar:hover, .searchbar:focus, .searchbar-sm:hover, .searchbar-sm:focus, .searchbutton:hover {
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+}
+
+.searchbutton {
+    background-color: #F8F9FA;
+    border-style: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+}
+
+.vertical-center {
+    margin-top: 150px
+}
+
+h1 {
+    font-size: 42pt;
+    margin: 5px;
+}
+
+h3 {
+    font-size: 20pt;
+    margin: 30px 0px 10px 47px;
+}
+
+.google-name {
+    background: linear-gradient(to left,violet, blue, yellow, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.navigation {
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation a:active, .navigation a:hover {
+    text-decoration: underline;
+}
+
+.text-input-table tr td .searchbutton {
+    float: right;
+    background-color: #4D90FE;
+    color: #FFFFFF;
+}
+
+.text-input-table {
+    margin: 15px 45px;
+}
+
+.text-input-table tr {
+    font-size: 12pt;
+}
